@@ -348,6 +348,17 @@
     
     <entry>
       <title></title>
+      <link href="/guestbook/index.html"/>
+      <url>/guestbook/index.html</url>
+      
+        <content type="html"><![CDATA[<h1>留言板</h1>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/tech-style.css"/>
       <url>/css/tech-style.css</url>
       
@@ -359,21 +370,10 @@
     
     <entry>
       <title></title>
-      <link href="/me/index.html"/>
-      <url>/me/index.html</url>
+      <link href="/js/tech-effects.js"/>
+      <url>/js/tech-effects.js</url>
       
-        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/guestbook/index.html"/>
-      <url>/guestbook/index.html</url>
-      
-        <content type="html"><![CDATA[<h1>留言板</h1>]]></content>
+        <content type="html"><![CDATA[// 粒子背景效果document.addEventListener('DOMContentLoaded', function() {  // 只在首页显示粒子背景  if (document.getElementById('page-header')) {    particlesJS('page-header', {      particles: {        number: { value: 80, density: { enable: true, value_area: 800 } },        color: { value: "#00f5ff" },        shape: { type: "circle" },        opacity: { value: 0.5, random: true },        size: { value: 3, random: true },        line_linked: {          enable: true,          distance: 150,          color: "#00f5ff",          opacity: 0.4,          width: 1        },        move: { enable: true, speed: 2, direction: "none", random: true }      },      interactivity: {        detect_on: "canvas",        events: {          onhover: { enable: true, mode: "repulse" },          onclick: { enable: true, mode: "push" }        }      }    });  }  // 打字机效果  const typedElements = document.querySelectorAll('.typed-text');  typedElements.forEach(el => {    const text = el.textContent;    el.textContent = '';    let i = 0;    const typing = setInterval(() => {      if (i < text.length) {        el.textContent += text.charAt(i);        i++;      } else {        clearInterval(typing);      }    }, 100);  });});]]></content>
       
     </entry>
     
@@ -392,21 +392,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/tech-effects.js"/>
-      <url>/js/tech-effects.js</url>
+      <link href="/me/index.html"/>
+      <url>/me/index.html</url>
       
-        <content type="html"><![CDATA[// 粒子背景效果document.addEventListener('DOMContentLoaded', function() {  // 只在首页显示粒子背景  if (document.getElementById('page-header')) {    particlesJS('page-header', {      particles: {        number: { value: 80, density: { enable: true, value_area: 800 } },        color: { value: "#00f5ff" },        shape: { type: "circle" },        opacity: { value: 0.5, random: true },        size: { value: 3, random: true },        line_linked: {          enable: true,          distance: 150,          color: "#00f5ff",          opacity: 0.4,          width: 1        },        move: { enable: true, speed: 2, direction: "none", random: true }      },      interactivity: {        detect_on: "canvas",        events: {          onhover: { enable: true, mode: "repulse" },          onclick: { enable: true, mode: "push" }        }      }    });  }  // 打字机效果  const typedElements = document.querySelectorAll('.typed-text');  typedElements.forEach(el => {    const text = el.textContent;    el.textContent = '';    let i = 0;    const typing = setInterval(() => {      if (i < text.length) {        el.textContent += text.charAt(i);        i++;      } else {        clearInterval(typing);      }    }, 100);  });});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>作品集</title>
-      <link href="/portfolio/index.html"/>
-      <url>/portfolio/index.html</url>
-      
-        <content type="html"><![CDATA[<h1>🎯 我的作品集</h1><blockquote><p>这里展示了我精心挑选的技术项目和创作成果，每个项目都凝聚了我的心血和技术思考。</p></blockquote><h2 id="🚀-精选项目">🚀 精选项目</h2><h3 id="1-优惠卷计算师">1. 优惠卷计算师</h3><p><strong>项目周期</strong>: 2025.11.06 - 2025.11.09<br><strong>技术栈</strong>: css + qt + c++<br><strong>项目状态</strong>: 🟢 活跃维护</p><p><strong>项目描述</strong>:<br>根据超市发放的各种折扣卷的数量，和客户购买的商品的总价格输出打折后的价格及使用的优惠卷总数。</p><p><strong>核心功能</strong>:</p><ul><li>🤖 可编辑折扣卷数量</li><li>🔍 自定义顾客数和商品打折前总价</li><li>📊 时尚潮流的I</li></ul><p><strong>技术亮点</strong>:</p><ul><li>QT Desinger实现Figma效果</li><li>折扣算法准确度</li><li>程序精简运行方便</li></ul><p><strong>项目链接</strong>:</p><ul><li><a href="https://tiandongpo.github.io/2025/11/09/%E4%BC%98%E6%83%A0%E5%8D%B7%E8%AE%A1%E7%AE%97%E5%B8%88%E8%BD%AF%E4%BB%B6%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C(%E5%9B%9B)/">在线演示</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
       
     </entry>
     
@@ -418,6 +407,17 @@
       <url>/photos/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" href="../lib/album/ins.css"><link rel="stylesheet" href="../lib/album/photoswipe.css"> <link rel="stylesheet" href="../lib/album/default-skin/default-skin.css"> <div class="photos-btn-wrap">  <a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="external">Photos</a></div><div class="instagram itemscope">  <a href="https://tiandongpo.github.io/" target="_blank" class="open-ins">图片正在加载中…</a></div><script>  (function() {    var loadScript = function(path) {      var $script = document.createElement('script')      document.getElementsByTagName('body')[0].appendChild($script)      $script.setAttribute('src', path)    }    setTimeout(function() {        loadScript('../lib/album/ins.js')    }, 0)  })()</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>作品集</title>
+      <link href="/portfolio/index.html"/>
+      <url>/portfolio/index.html</url>
+      
+        <content type="html"><![CDATA[<h1>🎯 我的作品集</h1><blockquote><p>这里展示了我精心挑选的技术项目和创作成果，每个项目都凝聚了我的心血和技术思考。</p></blockquote><h2 id="🚀-精选项目">🚀 精选项目</h2><h3 id="1-优惠卷计算师">1. 优惠卷计算师</h3><p><strong>项目周期</strong>: 2025.11.06 - 2025.11.09<br><strong>技术栈</strong>: css + qt + c++<br><strong>项目状态</strong>: 🟢 活跃维护</p><p><strong>项目描述</strong>:<br>根据超市发放的各种折扣卷的数量，和客户购买的商品的总价格输出打折后的价格及使用的优惠卷总数。</p><p><strong>核心功能</strong>:</p><ul><li>🤖 可编辑折扣卷数量</li><li>🔍 自定义顾客数和商品打折前总价</li><li>📊 时尚潮流的I</li></ul><p><strong>技术亮点</strong>:</p><ul><li>QT Desinger实现Figma效果</li><li>折扣算法准确度</li><li>程序精简运行方便</li></ul><p><strong>项目链接</strong>:</p><ul><li><a href="https://tiandongpo.github.io/2025/11/09/%E4%BC%98%E6%83%A0%E5%8D%B7%E8%AE%A1%E7%AE%97%E5%B8%88%E8%BD%AF%E4%BB%B6%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C(%E5%9B%9B)/">在线演示</a></li></ul>]]></content>
       
     </entry>
     
