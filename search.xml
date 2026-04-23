@@ -315,10 +315,32 @@
     
     <entry>
       <title></title>
+      <link href="/guestbook/index.html"/>
+      <url>/guestbook/index.html</url>
+      
+        <content type="html"><![CDATA[<h1>留言板</h1>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<h1>关于本站</h1><p>这是一个由兴趣创建的个人网站，网站挂载在Github上。</p><p>记录技术进步点滴，让世界听见我们的声音。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26222134&auto=1&height=66"></iframe>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/pdf/index.html"/>
+      <url>/pdf/index.html</url>
+      
+        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
       
     </entry>
     
@@ -348,17 +370,6 @@
     
     <entry>
       <title></title>
-      <link href="/guestbook/index.html"/>
-      <url>/guestbook/index.html</url>
-      
-        <content type="html"><![CDATA[<h1>留言板</h1>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/tech-style.css"/>
       <url>/css/tech-style.css</url>
       
@@ -374,28 +385,6 @@
       <url>/js/tech-effects.js</url>
       
         <content type="html"><![CDATA[// 粒子背景效果document.addEventListener('DOMContentLoaded', function() {  // 只在首页显示粒子背景  if (document.getElementById('page-header')) {    particlesJS('page-header', {      particles: {        number: { value: 80, density: { enable: true, value_area: 800 } },        color: { value: "#00f5ff" },        shape: { type: "circle" },        opacity: { value: 0.5, random: true },        size: { value: 3, random: true },        line_linked: {          enable: true,          distance: 150,          color: "#00f5ff",          opacity: 0.4,          width: 1        },        move: { enable: true, speed: 2, direction: "none", random: true }      },      interactivity: {        detect_on: "canvas",        events: {          onhover: { enable: true, mode: "repulse" },          onclick: { enable: true, mode: "push" }        }      }    });  }  // 打字机效果  const typedElements = document.querySelectorAll('.typed-text');  typedElements.forEach(el => {    const text = el.textContent;    el.textContent = '';    let i = 0;    const typing = setInterval(() => {      if (i < text.length) {        el.textContent += text.charAt(i);        i++;      } else {        clearInterval(typing);      }    }, 100);  });});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/pdf/index.html"/>
-      <url>/pdf/index.html</url>
-      
-        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/me/index.html"/>
-      <url>/me/index.html</url>
-      
-        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
       
     </entry>
     
@@ -425,10 +414,10 @@
     
     <entry>
       <title></title>
-      <link href="/projects/index.html"/>
-      <url>/projects/index.html</url>
+      <link href="/me/index.html"/>
+      <url>/me/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<embed src="/PdfFile/JustDoitNow.pdf" width="100%" height="600px" type="application/pdf">]]></content>
       
     </entry>
     
@@ -438,6 +427,17 @@
       <title></title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/projects/index.html"/>
+      <url>/projects/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
