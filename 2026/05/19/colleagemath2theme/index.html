@@ -1,0 +1,332 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>大学数学-概率论与数理统计练习题 | DongCheng Blog</title><meta name="author" content="DongCheng"><meta name="copyright" content="DongCheng"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="article">
+<meta property="og:title" content="大学数学-概率论与数理统计练习题">
+<meta property="og:url" content="http://tiandongcheng1011.git.io/2026/05/19/colleagemath2theme/index.html">
+<meta property="og:site_name" content="DongCheng Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunthenmecover.png">
+<meta property="article:published_time" content="2026-05-18T23:22:11.000Z">
+<meta property="article:modified_time" content="2026-05-19T11:37:56.331Z">
+<meta property="article:author" content="DongCheng">
+<meta property="article:tag" content="数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunthenmecover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "大学数学-概率论与数理统计练习题",
+  "url": "http://tiandongcheng1011.git.io/2026/05/19/colleagemath2theme/",
+  "image": "https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunthenmecover.png",
+  "datePublished": "2026-05-18T23:22:11.000Z",
+  "dateModified": "2026-05-19T11:37:56.331Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "DongCheng",
+      "url": "http://tiandongcheng1011.git.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://tiandongcheng1011.git.io/2026/05/19/colleagemath2theme/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '大学数学-概率论与数理统计练习题',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/image/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-briefcase"></i><span> 作品集</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunthenmecover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">DongCheng Blog</span></a><a class="nav-page-title" href="/"><span class="site-name">大学数学-概率论与数理统计练习题</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-briefcase"></i><span> 作品集</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">大学数学-概率论与数理统计练习题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-05-18T23:22:11.000Z" title="发表于 2026-05-19 07:22:11">2026-05-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-05-19T11:37:56.331Z" title="更新于 2026-05-19 19:37:56">2026-05-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0/">数学学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvluntheme.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://tiandongcheng1011.git.io">DongCheng</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://tiandongcheng1011.git.io/2026/05/19/colleagemath2theme/">http://tiandongcheng1011.git.io/2026/05/19/colleagemath2theme/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://tiandongcheng1011.git.io" target="_blank">DongCheng Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/">数学</a></div><div class="post-share"><div class="social-share" data-image="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunthenmecover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/05/19/colleagemath2note/" title="大学数学-概率论与数理统计学习笔记"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunnote.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">大学数学-概率论与数理统计学习笔记</div></div><div class="info-2"><div class="info-item-1">从“套路”到“直觉”——我的概率论与数理统计学习总结前言：我与这门课的故事概率论与数理统计是我大学四年里印象最深的一门数学课。不是因为难——说实话，相比于数学分析里的ε-δ语言、高等代数里的抽象空间，概率论的逻辑链条要“亲民”得多——而是因为这门课改变了我对“数学到底能干什么”的理解。数学分析教会我用确定性思维理解连续变化，线性代数教会我处理高维结构，而概率论教会我的是：世界大多数时候不是非黑即白的，我们需要学会在不确定中做判断。这种思维方式的转变，可能是我大学四年最大的收获之一。 四川省高校的概率论与数理统计课程体系有其鲜明的特点：注重基础知识与理论应用的结合，考核重点集中在概率论部分，但数理统计的方法论价值同样不可忽视。在这篇总结里，我想从自己的学习经历出发，梳理这门课的核心知识框架、解题方法论和备考策略。这不是一份面面俱到的知识清单，而是我反复打磨后沉淀下来的“认知地图”——希望它不仅能帮你通过考试，更能让你感受到这门课的内在美感。 第一章：课程认知——概率论与数理统计的本质关系很多同学学到期末也没弄明白一个问题：为什么这门课叫“概率论与数理统计”，而不是“概率论”或者“数...</div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath2/" title="大学数学-概率论与数理统计"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlun.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">大学数学-概率论与数理统计</div></div><div class="info-2"><div class="info-item-1">概率论与统计学核心知识体系及解题方法大全一、概率论基础名词、定义与几何意义1.1 随机事件与概率   名词 严格定义 几何意义 典型例子    样本空间Ω 随机试验所有可能结果组成的集合 几何上表示为一个全集，通常用矩形区域表示 掷一枚骰子，Ω={1,2,3,4,5,6}，对应矩形中6个等面积的小区域   随机事件A 样本空间Ω的子集，由若干个样本点组成 几何上表示为样本空间矩形内的一个子区域 掷骰子出现偶数点，A={2,4,6}，对应矩形中3个相邻的小区域   基本事件 由单个样本点组成的事件，不能再分解 几何上表示为样本空间中不可再分的最小区域 掷骰子出现”3点”，对应一个面积为1/6的小正方形   不可能事件∅ 不包含任何样本点的事件 几何上表示为面积为0的空集 掷骰子出现”7点”，对应空区域   必然事件Ω 包含所有样本点的事件 几何上表示为整个样本空间区域 掷骰子出现”1-6点中任意一点”，对应整个矩形   概率P(A) 对事件A发生可能性大小的度量，满足：1. 非负性：P(A)≥02. 规范性：P(Ω)=13. 可列可加性：若A₁,A₂,…互斥，则P(∪Aᵢ)=ΣP(...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/05/19/colleagemath2note/" title="大学数学-概率论与数理统计学习笔记"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlunnote.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-概率论与数理统计学习笔记</div></div><div class="info-2"><div class="info-item-1">从“套路”到“直觉”——我的概率论与数理统计学习总结前言：我与这门课的故事概率论与数理统计是我大学四年里印象最深的一门数学课。不是因为难——说实话，相比于数学分析里的ε-δ语言、高等代数里的抽象空间，概率论的逻辑链条要“亲民”得多——而是因为这门课改变了我对“数学到底能干什么”的理解。数学分析教会我用确定性思维理解连续变化，线性代数教会我处理高维结构，而概率论教会我的是：世界大多数时候不是非黑即白的，我们需要学会在不确定中做判断。这种思维方式的转变，可能是我大学四年最大的收获之一。 四川省高校的概率论与数理统计课程体系有其鲜明的特点：注重基础知识与理论应用的结合，考核重点集中在概率论部分，但数理统计的方法论价值同样不可忽视。在这篇总结里，我想从自己的学习经历出发，梳理这门课的核心知识框架、解题方法论和备考策略。这不是一份面面俱到的知识清单，而是我反复打磨后沉淀下来的“认知地图”——希望它不仅能帮你通过考试，更能让你感受到这门课的内在美感。 第一章：课程认知——概率论与数理统计的本质关系很多同学学到期末也没弄明白一个问题：为什么这门课叫“概率论与数理统计”，而不是“概率论”或者“数...</div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath1/" title="大学数学-微积分"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/weijifen.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-微积分</div></div><div class="info-2"><div class="info-item-1">四川省大学数学·微积分（同济版）完整体系梳理 版本说明：本文依据同济大学数学科学学院编《高等数学》（第八版）内容框架编写，该教材分上、下两册出版，上册包括函数与极限、导数与微分、微分中值定理与导数的应用、不定积分、定积分及其应用、微分方程等内容；下册涵盖向量代数与空间解析几何、多元函数微分法及其应用、重积分、曲线积分与曲面积分、无穷级数等。   目录 第一章 函数与极限 第二章 导数与微分 第三章 微分中值定理与导数的应用 第四章 不定积分 第五章 定积分 第六章 定积分的应用 第七章 微分方程 第八章 向量代数与空间解析几何 第九章 多元函数微分法及其应用 第十章 重积分 第十一章 曲线积分与曲面积分 第十二章 无穷级数 500道题目解题方法归纳  第一章 函数与极限1.1 函数   名词 定义 几何意义 举例    映射 设  是两个非空集合，若存在一个法则 ，使得对每个 ，有唯一确定的  与之对应，则称  为从  到  的映射 直角坐标系中，函数  的图像是平面曲线，每个  对应曲线上唯一一点    函数 从实数集（或其子集）到实数集的映射，记作  平面直角坐标系中的一条曲...</div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath1note/" title="大学数学-微积分学习笔记"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/weijifennote.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-微积分学习笔记</div></div><div class="info-2"><div class="info-item-1">从满分答卷到学科思维——我的大学微积分学习总结笔记前言三年前刚进大学时，我和很多同学一样，对微积分是有些忐忑的。高中虽然学过导数，但“极限”这个概念让我感到陌生又抽象。幸运的是，在川大数学学院几位老师的引导下，我逐渐摸到了门道，大一上学期期中考试拿了满分之后，信心大增，此后各次考试都保持了这个成绩。 回过头看，满分与其说证明了“聪明”，不如说证明了几件事：第一，基础概念的透彻理解；第二，知识点之间的关联建立；第三，解题方法的系统归类和刻意练习；第四，考前复习的策略规划。 这篇笔记以四川高校（尤其是川大）使用的《微积分》教材体系为准，结合近三年考试真题的命题规律，按照章节顺序，逐一拆解我的学习心得和拿满分的具体做法。  第一章：函数、极限与连续——整个大厦的地基1.1 这一章为什么重要微积分以函数为研究对象，以极限为理论基础——微分是无限细分，积分是无限求和，而“无限”就是极限。这句话是整个课程的灵魂。很多同学觉得第一章简单就掉以轻心，结果后面学导数定义、学级数敛散性的时候处处碰壁——根源就在于极限没吃透。 极限是整个高等数学的基石，重点考查极限的计算（七种未定式）、无穷小比较、连...</div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath3/" title="大学数学-初等数论"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/numbertheroycover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-初等数论</div></div><div class="info-2"><div class="info-item-1"> </div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath2/" title="大学数学-概率论与数理统计"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/gailvlun.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-概率论与数理统计</div></div><div class="info-2"><div class="info-item-1">概率论与统计学核心知识体系及解题方法大全一、概率论基础名词、定义与几何意义1.1 随机事件与概率   名词 严格定义 几何意义 典型例子    样本空间Ω 随机试验所有可能结果组成的集合 几何上表示为一个全集，通常用矩形区域表示 掷一枚骰子，Ω={1,2,3,4,5,6}，对应矩形中6个等面积的小区域   随机事件A 样本空间Ω的子集，由若干个样本点组成 几何上表示为样本空间矩形内的一个子区域 掷骰子出现偶数点，A={2,4,6}，对应矩形中3个相邻的小区域   基本事件 由单个样本点组成的事件，不能再分解 几何上表示为样本空间中不可再分的最小区域 掷骰子出现”3点”，对应一个面积为1/6的小正方形   不可能事件∅ 不包含任何样本点的事件 几何上表示为面积为0的空集 掷骰子出现”7点”，对应空区域   必然事件Ω 包含所有样本点的事件 几何上表示为整个样本空间区域 掷骰子出现”1-6点中任意一点”，对应整个矩形   概率P(A) 对事件A发生可能性大小的度量，满足：1. 非负性：P(A)≥02. 规范性：P(Ω)=13. 可列可加性：若A₁,A₂,…互斥，则P(∪Aᵢ)=ΣP(...</div></div></div></a><a class="pagination-related" href="/2026/05/19/colleagemath3note/" title="大学数学-初等数论学习笔记"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/numbertheroynotecover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-19</div><div class="info-item-2">大学数学-初等数论学习笔记</div></div><div class="info-2"><div class="info-item-1"> </div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/image/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">DongCheng</div><div class="author-info-description">全栈开发者 | 技术博主</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" href="https://github.com/tiandongcheng"><i class="fab fa-github"></i><span>联系我</span></a><div class="card-info-social-icons"><a class="social-icon" href="mailto:tiandongcheng1011@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">人间值得，未来可期。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/05/19/colleagemath5note/" title="大学数学-数学物理方法学习笔记"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/mathphysicnotecover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大学数学-数学物理方法学习笔记"/></a><div class="content"><a class="title" href="/2026/05/19/colleagemath5note/" title="大学数学-数学物理方法学习笔记">大学数学-数学物理方法学习笔记</a><time datetime="2026-05-19T09:11:20.000Z" title="发表于 2026-05-19 17:11:20">2026-05-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/19/colleagemath5/" title="大学数学-数学物理方法"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/mathandphysiccover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大学数学-数学物理方法"/></a><div class="content"><a class="title" href="/2026/05/19/colleagemath5/" title="大学数学-数学物理方法">大学数学-数学物理方法</a><time datetime="2026-05-19T06:05:40.000Z" title="发表于 2026-05-19 14:05:40">2026-05-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/19/colleagemath4note/" title="大学数学-复变函数学习笔记"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/fubianhanshunotecover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大学数学-复变函数学习笔记"/></a><div class="content"><a class="title" href="/2026/05/19/colleagemath4note/" title="大学数学-复变函数学习笔记">大学数学-复变函数学习笔记</a><time datetime="2026-05-19T04:12:23.000Z" title="发表于 2026-05-19 12:12:23">2026-05-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/19/colleagemath4/" title="大学数学-复变函数"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/fubianhanshucover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大学数学-复变函数"/></a><div class="content"><a class="title" href="/2026/05/19/colleagemath4/" title="大学数学-复变函数">大学数学-复变函数</a><time datetime="2026-05-19T03:22:33.000Z" title="发表于 2026-05-19 11:22:33">2026-05-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/05/19/colleagemath3note/" title="大学数学-初等数论学习笔记"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blogpic-1424988703.cos.ap-beijing.myqcloud.com/numbertheroynotecover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大学数学-初等数论学习笔记"/></a><div class="content"><a class="title" href="/2026/05/19/colleagemath3note/" title="大学数学-初等数论学习笔记">大学数学-初等数论学习笔记</a><time datetime="2026-05-19T02:12:21.000Z" title="发表于 2026-05-19 10:12:21">2026-05-19</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By DongCheng</span><span class="framework-info"><span>框架 </span><a href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.1</a></span></div><div class="footer_custom_text">🚀 探索未知 • 创造未来</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.1"></script><script src="/js/main.js?v=5.5.1"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  const initGitalk = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGitalk = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const gitalk = new Gitalk({
+      clientID: 'Ov23liMP6x9MtAVdt94r',
+      clientSecret: '5f6ee6688fcc6cc95ffb5a17f4f2011bf699e9a5',
+      repo: 'blog-comments',
+      owner: 'tiandongcheng1011',
+      admin: ['tiandongcheng1011'],
+      updateCountCallback: commentCount,
+      ...option,
+      id: isShuoshuo ? path : (option && option.id) || 'b9b4b26936e786db668fe825c93f10db'
+    })
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async(el, path) => {
+    if (typeof Gitalk === 'function') initGitalk(el, path)
+    else {
+      await btf.getCSS('https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.css')
+      await btf.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js')
+      initGitalk(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Gitalk'
+      ? window.shuoshuoComment = { loadComment: loadGitalk }
+      : window.loadOtherComment = loadGitalk
+    return
+  }
+
+  if ('Gitalk' === 'Gitalk' || !false) {
+    if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.1"></script></div></div></body></html>
